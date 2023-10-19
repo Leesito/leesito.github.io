@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <script>
+        function contraseña() {
+        usuario = document.getElementById("inputusuario").value;
+        contraseña = document.getElementById("inputpassword").value;
+        if (usuario == "Joemama" && contraseña == "ligma") {
+          alert("bienvenido, pepe");
+          window.location.href = "juegos.html"
+            
+        }
+        
+        else{
+            alert("credenciales no validas")
+        }
+        }
+    
+    </script>
+
+</head>
+
+
+<body>
+
+    <form action="">
+            <label for="">Usuario</label> 
+            <input type="text" id="inputusuario"><br>
+            
+            <label for="">Contraseña</label>
+            <input type="text" id="inputpassword">
+            <button type="button" onclick="contraseña()">Iniciar sesión</button>
+
+    </form>
+
+ 
+</body>
+</html>
